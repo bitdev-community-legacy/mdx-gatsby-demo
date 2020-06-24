@@ -11,7 +11,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        defaultLayouts: { default: path.resolve('./src/components/layout.js') },
+        // defaultLayouts: { default: path.resolve('./src/components/layout.js') },
+        extensions: [`.mdx`, `.md`]
       },
     },
     'gatsby-plugin-react-helmet',
@@ -31,6 +32,7 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
