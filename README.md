@@ -10,3 +10,5 @@
 ### [Read the blog post here.](https://blog.bitsrc.io/composing-documents-with-mdx-markdown-for-the-component-era-ed9d87142703)
 
 ### [See the project on Nelify here.](https://mdx-gatsby-demo.netlify.app/)
+
+### [Explore the component collection on Bit, here.](https://bit.dev/eden/markdown-components)
