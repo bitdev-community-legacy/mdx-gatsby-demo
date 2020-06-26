@@ -22,7 +22,7 @@ const components = {
     pre: CodeBlock
 }
 
-const Page2 = () => {
+const Document = () => {
     return (
         <MDXProvider components={components}>
             <ParagraphDefinition />
@@ -32,4 +32,4 @@ const Page2 = () => {
 }
 
 
-export default Page2;
+export default Document;
